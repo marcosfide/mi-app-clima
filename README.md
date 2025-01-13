@@ -34,7 +34,9 @@ Abre el archivo index.html en tu navegador.
 🌟 Uso
 Al cargar la aplicación, se detectará tu ubicación automáticamente (si tienes activada la geolocalización) y se mostrará el clima de tu ubicación actual.
 Introduce el nombre de una ciudad en el buscador y presiona el botón "🔍 Buscar" para consultar el clima de esa ciudad.
+
 🌐 API utilizada
+
 OpenWeatherMap API: https://openweathermap.org/api
 
 ✨ Autor
