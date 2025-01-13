@@ -1,7 +1,9 @@
 🌦️ Mi App de Clima
+
 Una aplicación sencilla para consultar el clima actual de tu ubicación o buscar el clima en cualquier ciudad del mundo. Utiliza la API de OpenWeatherMap para obtener datos meteorológicos en tiempo real.
 
 🚀 Características
+
 Muestra el clima actual basado en tu ubicación geográfica.
 Permite buscar el clima en cualquier ciudad del mundo.
 Información presentada:
@@ -24,6 +26,7 @@ Acceso a internet.
 Clona el repositorio:
 
 Copiar código
+
 git clone https://github.com/marcosfide/mi-app-clima.git
 cd mi-app-clima
 Abre el archivo index.html en tu navegador.
@@ -33,24 +36,9 @@ Al cargar la aplicación, se detectará tu ubicación automáticamente (si tiene
 Introduce el nombre de una ciudad en el buscador y presiona el botón "🔍 Buscar" para consultar el clima de esa ciudad.
 🌐 API utilizada
 OpenWeatherMap API: https://openweathermap.org/api
-🖼️ Capturas de pantalla
-Pantalla principal:
-[Inserta una captura de pantalla aquí]
-
-Resultados de búsqueda:
-[Inserta una captura de pantalla aquí]
-
-🤝 Contribuciones
-Si deseas contribuir a este proyecto:
-
-Haz un fork del repositorio.
-Crea una rama para tu funcionalidad (git checkout -b mi-funcionalidad).
-Realiza tus cambios y haz un commit (git commit -m "Añadir mi funcionalidad").
-Sube tus cambios a tu rama (git push origin mi-funcionalidad).
-Abre un Pull Request.
-🛡️ Licencia
-Este proyecto está licenciado bajo la MIT License.
 
 ✨ Autor
+
 Marcos Fidelibus
+
 [GitHub](https://github.com/marcosfide)
