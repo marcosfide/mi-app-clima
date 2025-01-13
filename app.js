@@ -1,3 +1,16 @@
+function getFormattedDate() {
+    const days = ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
+    const months = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
+    
+    const today = new Date();
+    const dayName = days[today.getDay()];
+    const day = today.getDate();
+    const monthName = months[today.getMonth()];
+    const year = today.getFullYear();
+    
+    return `${dayName} ${day} de ${monthName} de ${year}`;
+}
+
 function getWindDirection(degrees) {
     if (degrees >= 337.5 || degrees < 22.5) return 'N'; // Norte
     if (degrees >= 22.5 && degrees < 67.5) return 'NE'; // Noreste
@@ -10,6 +23,8 @@ function getWindDirection(degrees) {
 }
 
 window.addEventListener("load", () => {
+    const dateElement = document.getElementById('current-date');
+    dateElement.textContent = getFormattedDate();
 
     if(!navigator.geolocation){
         console.log("geolocation is not available");
