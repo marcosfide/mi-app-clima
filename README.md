@@ -14,15 +14,21 @@ Temperaturas mínima y máxima
 Humedad
 Velocidad y dirección del viento
 Fecha actual en formato legible: Miércoles 13 de Octubre de 2024.
+
 🛠️ Tecnologías usadas
+
 HTML5
 CSS3
 JavaScript
 OpenWeatherMap API: Para obtener los datos meteorológicos.
+
 ⚙️ Requisitos previos
+
 Navegador moderno con soporte para ES6.
 Acceso a internet.
+
 📝 Instalación
+
 Clona el repositorio:
 
 Copiar código
