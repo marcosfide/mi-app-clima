@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App clima</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="contenedor">
+        <header style="background-color: rgb(52, 103, 119); padding: 1rem;">
+            <h1 class="title">🌦️ Mi App de Clima</h1>
+            <p id="current-date" style="color: #fff; font-size: 1.2rem; text-align: center; margin-top: 10px; margin-bottom: 0;"></p>
+        </header>
+        <main>
+            <div id="searcher-container">
+                <h2>Buscar el clima en tu ciudad</h2>
+                <div id="input-button">
+                    <input type="text" id="input-city" placeholder="Escribe una ciudad...">
+                    <button id="search-button">🔍 Buscar</button>
+                </div>
+            </div>
+            <div class="weather-container">
+                <div id="local-container"></div>
+                <div id="city-searched"></div>
+            </div>
+            
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
